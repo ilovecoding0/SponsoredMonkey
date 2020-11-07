@@ -4,18 +4,22 @@
 	<title>Login</title>
 </head>
 <body>
-	<form action="random.php" method="POST">
+
+	<h2>Login</h2>
+	<form>
 		<div>
-			<label>Username</label>
-		<input type="text" name="login" placeholder="Username">
+			<label for="login">Youtube Channel : </label>
+		<input type="text" name="username" placeholder="Username"required>
 		</div>
 		<br>
 		<div>
-			<label>Password</label>
-		<input type="password" name="password" placeholder="Password">
+			<label for="password">Password : </label>
+		<input type="password" name="password" placeholder="Password"required>
 		</div>
 		<br>
-		<input type="submit" name="submit" value="submit">
+		<input type="submit" name="login_user" value="Login">
+
+		<p>Not a user? <a href="signup.html"><strong>Sign Up</strong></a></p>
 
 	</form>
 

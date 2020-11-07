@@ -4,19 +4,25 @@
 	<title>Sign Up</title>
 </head>
 <body>
-	<form>
+	<form action="data.php" method="POST">
 		<div>
+			<label>First Name</label>
 		<input type="text" name="name" placeholder="First Name">
 		</div>
 		<div>
+			<label>Last Name</label>
 		<input type="text" name="lastName" placeholder="Last Name">
 		</div>
 		<div>
+			<label>Password</label>
 		<input type="password" name="password" placeholder="Password">
 		</div>
 		<div>
-		<input type="email" name="email" placeholder="Email">
+			<label>Email</label>
+		<input type="email" name="email" placeholder="john@examplemail.com">
 		</div>
+
+		<input type="submit" name="submit">
 
 	</form>
 

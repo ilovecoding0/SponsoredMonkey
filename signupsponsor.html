@@ -3,6 +3,9 @@
 <head>
 	<title>Sign Up</title>
    	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+   	<link rel="stylesheet" type="text/css" href="stylesheets/loginstyles.css">
+   	<script src="https://kit.fontawesome.com/b0570b4bae.js" crossorigin="anonymous"></script>
+   	
 </head>
 <body>
 
@@ -25,36 +28,35 @@
 
 		<!--end of header-->
 	</div>
-
-	<h2>Sign Up As Sponsor</h2>
+<div class="login-box">
+	<h1>Sign Up</h1>
 	<form>
-		<div>
-			<div>
-			<label for="lastName">Company Name : </label>
-		<input type="text" name="youtube" placeholder="Last Name"required>
+		<div class="textbox">
+			<i class="fas fa-user"></i>
+			<input type="text" name="youtube" placeholder="Company Name"required>
 		</div>
-		<br>
-		<div>
-			<label for="password">Password : </label>
-		<input type="password" name="password" placeholder="Password"required>
+
+		<div class="textbox">
+			<i class="fas fa-lock"></i>
+			<input type="password" name="password" placeholder="Password"required>
 		</div>
-		<br>
-		<div>
-			<label for="password_2">Confirm Password : </label>
+
+		<div class="textbox">
+			<i class="fas fa-lock"></i>
 			<input type="password" name="password_2" placeholder="Confirm Password">
 		</div>
-		<br>
-		<div>
-			<label for="email">Email : </label>
-		<input type="email" name="email" placeholder="john@examplemail.com"required>
+
+		<div class="textbox">
+			<i class="fas fa-mail-bulk"></i>
+			<input type="email" name="email" placeholder="example@email.com"required>
 		</div>
-		<br>
 
-		<input type="submit" name="Sign Up" value="Sign Up">
+		<input type="submit" name="Sign Up" value="Sign Up" class="btn">
 
-		<p>Already a user? <a href="loginsponsor.html"><strong>Login</strong></a></p>
+		<p><a href="loginsponsor.html" class="link">Already a user? Login</a></p>
 
 	</form>
+</div>
 
 	<div class="gap"></div>
 

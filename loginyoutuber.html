@@ -1,8 +1,10 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
  <html>
  <head>
    <title>Log In</title>
+   <script src="https://kit.fontawesome.com/b0570b4bae.js" crossorigin="anonymous"></script>
    <link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+   <link rel="stylesheet" type="text/css" href="stylesheets/loginstyles.css">
  </head>
  <body>
     <div class="header">
@@ -15,7 +17,7 @@
       </div>
       <ul class="navigation">
         <a href="loginseperator.html"><li>Login</li></a>
-        <a href="signup.html"><li>Sign Up</li></a>
+        <a href="signupseperator.html"><li>Sign Up</li></a>
         <a href="index.html"><li>Home</li></a>
         <a href="about.html"><li>About</li></a>
       </ul>
@@ -25,30 +27,37 @@
     <!--end of header-->
   </div>
 
+  <div class="login-box">
+
+    <h1>Log In</h1>
+
  <form action="action_page.php" method="post">
-  <div class="imgcontainer">
-    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Youtube Channel" name="uname" required>
   </div>
-
-  <div class="container">
-    <label for="uname"><b>Youtube Channel</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
     <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
   </div>
 
-  <div><p>Not a user? <a href="signupyoutuber.html"><strong>Sign Up</strong></a></p></div>
 
-  <div class="container" style="background-color:#f1f1f1">
-    <span class="psw"><a href="#" class="link"> Forgot password?</a></span>
+
+    <button class="btn" type="submit">Login</button>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" class="remember"> Remember me
+    </label>
+
+  <div><p><a href="signupyoutuber.html" class="link">Not a user? Sign Up</a></p></div>
+
+  <div class="forgot">
+  <a href="#" class="link" id="margin"> Forgot password?</a>
   </div>
 </form>
+
+</div>
 
 <div class="gap"></div>
 

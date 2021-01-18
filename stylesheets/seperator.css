@@ -1,0 +1,13 @@
+.buttons {
+	border-radius: 20px;
+	height: 75px;
+	width: 175px;
+	margin-top: 225px;
+	margin-left: 100px;
+	background:#31c22a;
+ 	font-family: 'Space Grotesk', sans-serif;
+ 	font-size: 30px;
+ 	display: inline;
+ 	text-decoration: none;
+}
+

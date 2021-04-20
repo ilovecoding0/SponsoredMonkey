@@ -2,103 +2,114 @@
 <html>
 <head>
 	<title>Sign Up</title>
-   	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
-   	<link rel="stylesheet" type="text/css" href="stylesheets/loginstyles.css">
+<script src="https://kit.fontawesome.com/b0570b4bae.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+ 	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+ 	<link rel="stylesheet" type="text/css" href="stylesheets/seperator.css">
+ 	<link rel="stylesheet" type="text/css" href="stylesheets/loginstyles.css">
    	<script src="https://kit.fontawesome.com/b0570b4bae.js" crossorigin="anonymous"></script>
    	
 </head>
 <body>
+    <div class="header">
+    <div class="inner_header">
+      <div class="logo_container">
+        
+        <img src="Images/logo.png" width="60" height="60" class="logo" alt="Logo">
+        <h1>Sponsored <span>Monkey</span></h1>
+        <!--end of logo_container-->
+      </div>
+      <ul class="navigation">
+        <a href="loginseperator.html"><li>Login</li></a>
+        <a href="signupseperator.html"><li>Sign Up</li></a>
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+      </ul>
+      <!--end of inner header-->
+    </div>
 
-	<div class="header">
-		<div class="inner_header">
-			<div class="logo_container">
-				
-				<img src="Images/logo.png" width="60" height="60" class="logo" alt="Logo">
-				<h1>Sponsored <span>Monkey</span></h1>
-				<!--end of logo_container-->
-			</div>
-			<ul class="navigation">
-				<a href="loginseperator.html"><li>Login</li></a>
-				<a href="signupseperator.html"><li>Sign Up</li></a>
-				<a href="index.html"><li>Home</li></a>
-				<a href="about.html"><li>About</li></a>
-			</ul>
-			<!--end of inner header-->
-		</div>
+    <!--end of header-->
+  </div>
 
-		<!--end of header-->
-	</div>
-<div class="login-box">
-	<h1>Sign Up</h1>
-	<form>
-		<div class="textbox">
-			<i class="fas fa-user"></i>
-			<input type="text" name="youtube" placeholder="Youtube Channel"required>
-		</div>
+  <div class="login-box">
 
-		<div class="textbox">
-			<i class="fas fa-lock"></i>
-			<input type="password" name="password" placeholder="Password"required>
-		</div>
+    <h1>Log In</h1>
 
-		<div class="textbox">
-			<i class="fas fa-lock"></i>
-			<input type="password" name="password_2" placeholder="Confirm Password">
-		</div>
+ <form action="action_page.php" method="post">
 
-		<div class="textbox">
-			<i class="fas fa-mail-bulk"></i>
-			<input type="email" name="email" placeholder="example@email.com"required>
-		</div>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="Youtube Channel" name="uname" required>
+  </div>
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+  </div>
 
-		<input type="submit" name="Sign Up" value="Sign Up" class="btn">
 
-		<p><a href="loginsponsor.html" class="link">Already a user? Login</a></p>
 
-	</form>
+    <button class="btn" type="submit">Login</button>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" class="remember"> Remember me
+    </label>
+
+  <div><p><a href="signupyoutuber.html" class="link">Not a user? Sign Up</a></p></div>
+
+  <div class="forgot">
+  <a href="#" class="link1"> Forgot password?</a>
+  </div>
+</form>
+
 </div>
 
-	<div class="gap"></div>
+<div class="gap"></div>
 
-	<div class="footer">
-		<!--start of footer-->
-		<div class="inner_footer">
-			<!--start of inner footer-->
+<div class="footer">
+    <!--start of footer-->
+    <div class="inner_footer">
+      <!--start of inner footer-->
 
-			<div class="logo_container_footer">
-				<img src="Images/logo.png">
-			</div>
-			
-			<div class="footer_third">
-				
-				<h1>Need Help?</h1>
-				<a href="contact.html">Contact Us</a>
-				<a href="termsandconditions.html">Terms &amp; conditions</a>
-				<a href="privacypolicy.html">Privacy Policy</a>
+      <div class="logo_container_footer">
+        <img src="Images/logo.png">
+      </div>
+      
+      <div class="footer_third">
+        
+        <h1>Need Help?</h1>
+        <a href="contact.html">Contact Us</a>
+        <a href="termsandconditions.html">Terms &amp; conditions</a>
+        <a href="privacypolicy.html">Privacy Policy</a>
 
-				<!--end of footer third-->
+        <!--end of footer third-->
 
-			</div>
+      </div>
 
-			<div class="footer_third">
-				
-				<h1>More</h1>
-				<a href="loginsponsor.html">Login As Sponsor</a>
-				<a href="loginyoutuber.html">Login As Youtuber</a>
-				<a href="signupsponsor.html">Sign Up As Sponsor</a>
-				<a href="signupyoutuber.html">Sign Up As Youtuber</a>
+      <div class="footer_third">
+        
+        <h1>More</h1>
+        <a href="loginsponsor.html">Login As Sponsor</a>
+        <a href="loginyoutuber.html">Login As Youtuber</a>
+        <a href="signupsponsor.html">Sign Up As Sponsor</a>
+        <a href="signupyoutuber.html">Sign Up As Youtuber</a>
 
-				<!--end of footer third-->
+        <!--end of footer third-->
 
-			</div>
+      </div>
 
-			<div class="footer_third">
-				
-				<h1>Follow Us On</h1>
-				<li><a href="https://facebook.com"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="https://instagram.com"><i class="fa fa-instagram"></i></a></li>
-				<li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+      <div class="footer_third">
+        
+        <h1>Follow Us On</h1>
+        <li><a href="https://facebook.com"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://instagram.com"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+
+        <!--end of footer third-->
+
+      </div>
+    </div>
 
 
-</body>
-</html>
+  </div>
+</body> 

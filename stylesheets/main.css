@@ -4,12 +4,15 @@
 
 .ans {
 	padding-bottom: 25px;
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	font-style: italic;
 }
 
 .q {
-	background-color: #ffb300;
-	border-radius: 20px;
+	font-family: 'Space Grotesk', sans-serif;
+	background-image: linear-gradient(to right, #ffb300, #ffb300);
+	padding-left: 35px;
 }
 
 .midtext {

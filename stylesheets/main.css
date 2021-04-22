@@ -1,3 +1,34 @@
 .imgbtn {
+	
+}
 
+.ans {
+	padding-bottom: 25px;
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+.q {
+	background-color: #ffb300;
+	border-radius: 20px;
+}
+
+.midtext {
+	display: inline;
+	text-align: center;
+}
+
+.center {
+	padding: 30px 0px;
+	text-align: center;
+	padding-right: 60px;
+	font-size: 50px;
+	font-family: 'Space Grotesk', sans-serif
+}
+
+.midtext {
+	display: inline;
+	vertical-align: -150px;
+	padding-left: 80px;
+	font-size: 40px;
+	font-family: 'Space Grotesk', sans-serif
 }

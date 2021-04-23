@@ -1,31 +1,31 @@
 .imgbtn {
-	
+	display: inline;
+   background-color:#44ac95;
 }
 
+
 .ans {
-	padding-bottom: 25px;
-	font-family: 'Raleway', sans-serif;
-	font-size: 25px;
-	font-style: normal;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-style: bold;
 }
 
 .q {
-	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Antonio', sans-serif;
 	background-image: linear-gradient(to right, #ffb300, #ffb300);
 	padding-left: 35px;
+	font-style: bold;
 }
 
-.midtext {
-	display: inline;
-	text-align: center;
-}
 
 .center {
 	padding: 30px 0px;
 	text-align: center;
 	padding-right: 60px;
 	font-size: 50px;
-	font-family: 'Space Grotesk', sans-serif
+	font-family: 'Antonio', sans-serif;
 }
 
 .midtext {
@@ -33,5 +33,6 @@
 	vertical-align: -150px;
 	padding-left: 80px;
 	font-size: 40px;
-	font-family: 'Space Grotesk', sans-serif
+	font-family: 'Antonio', sans-serif;
+	font-style: bold;
 }
